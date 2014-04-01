@@ -1,0 +1,27 @@
+[user]
+	name = Kaifeng Zhang
+	email = kf.zhang@gmail.com
+[core]
+	excludesfile = <PATH_TO>/.gitignore	
+	quotepath = false	
+	editor = vim
+[alias]	
+	co = checkout	
+	ci = commit	
+	br = branch	
+	st = status	
+	unstage = reset HEAD --	
+	last = log -1 HEAD	
+	mg = merge	
+	glog = log --pretty=oneline --graph	
+	df = difftool
+[color]	
+	ui = true
+[format]
+	pretty = oneline
+[diff]	
+	tool = gvimdiff
+[difftool]
+	prompt = false
+[merge]	
+	tool = gvimdiff
