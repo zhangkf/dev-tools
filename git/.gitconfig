@@ -1,10 +1,15 @@
 [user]
 	name = Kaifeng Zhang
 	email = kf.zhang@gmail.com
+
+[credential]
+	helper = osxkeychain
+
 [core]
 	excludesfile = <PATH_TO>/.gitignore	
 	quotepath = false	
 	editor = vim
+
 [alias]	
 	co = checkout	
 	ci = commit	
@@ -15,13 +20,18 @@
 	mg = merge	
 	glog = log --pretty=oneline --graph	
 	df = difftool
+
 [color]	
 	ui = true
+
 [format]
 	pretty = oneline
+
 [diff]	
 	tool = gvimdiff
+
 [difftool]
 	prompt = false
+
 [merge]	
 	tool = gvimdiff
